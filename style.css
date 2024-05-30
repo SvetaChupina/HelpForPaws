@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    user-select: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: fontSite;
+}
+.header,.footer{
+    width: 100%;
+}
+.header{
+    z-index: 10;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    background-color: rgba(232,191,151,1);
+}
+.headerBlock b{
+    letter-spacing: 0.5px;
+    color: rgb(0, 0, 0);
+}
+.headerBlock{
+    align-items: center;
+    display: flex;
+    max-width:1800px;
+}
+.headerBlock img{
+    margin-right: -100px;
+    width: 60px;
+}
+.title{
+    font-size: 24pt;
+}
+.navigation{
+    width: 45%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+.navBox{
+    text-align: center;
+    width: 60px;
+    font-size: 14pt;
+}
+.navBox1{
+    width: 200px;
+    font-size: 14pt;
+    text-align: center;
+}
+.main{
+    width: 100%;
+    background-color: rgb(242, 234, 224);
+}
+
+.mainBlock{
+    text-align: center;
+    min-height: 2352px;
+    height: max-content;
+    margin: 0 auto;
+}
+.mainBlockM{
+    position: absolute;
+    transform: translate(-50%,0);
+    left: 50%;
+    text-align: center;
+    height: 2352px;
+    margin: 0 auto;
+}
+.info{
+    padding-top: 100px;
+    max-width: 900px;
+    margin-bottom: 100px;
+}
+.about{
+    line-height: 1.25;
+    font-size: 42pt;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.623);
+}
+.aboutUnder{
+    color: rgba(0, 0, 0, 0.622);
+    line-height: 1.5;
+    font-size: 13pt;
+}
+button{
+    font-size: 12pt;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    height: 55px;
+    width: 150px;
+    border: none;
+    background-color: #5c7270;
+}
+.aboutBtn{
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+.threeColumn{
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+}
+.threeColumn img{
+    margin: 30px 70px;
+    width: 65px;
+    height: 65px;
+}
+.column p{
+    font-size: 10pt;
+    margin-top: 25px;
+    line-height: 1.5;
+}
+.column b{
+    font-size: 20pt;
+}
+.column{
+    width: 270px;
+    color: black;
+}
+.wish1{
+    margin-top: 250px;
+}
+.wish1,.wish2{
+    font-size: 21pt;
+    max-width: 750px;
+    line-height: 1.65;
+}
+.wish2{
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+.contact{
+    font-size: 32pt;
+}
+.imgM{
+    max-width: 2400px;
+    min-width: 1400px;
+    height: 2325px;
+    padding-top: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.imgM img{
+    width: 350px;
+    height: 550px;
+}
+.back{
+    margin: 0 150px;
+}
+.footer{
+    z-index: 3;
+    background-color: rgb(60, 78, 68);
+    height: 375px;
+}
+.footerBlock{
+    color: rgba(255, 255, 255, 0.668);
+     max-width: 1800px;
+     padding: 40px 0 0 55px;
+     height: 300px;
+}
+.titelFoot{
+    margin-bottom: 40px;
+}
+.titelFoot a{
+    color: rgba(255, 255, 255, 0.668);
+    width: 1920px;
+    font-family: title;
+    font-size: 28pt;
+}
+.footNav{
+    font-family: nav;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.columnNav p{
+    font-size: 18pt;
+    padding-top: 7px;
+    color: rgba(255, 255, 255, 0.668);
+}
+.contacts{
+    font-size: 25pt;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+/* -----------------------Приюты------------------- */
+.img img{
+    margin-top: 50px;
+    width: 700px;
+}
+.aboutShel{
+    color: rgba(0, 0, 0, 0.622);
+    line-height: 1.5;
+    font-size: 16pt;
+}
+.aboutShel p{
+    margin-bottom: 30px;
+}
+.shelter{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: start;
+    max-width: 1200px;
+    height: 250px;
+    border-bottom: 1px solid black;
+}
+.shelter p,.shelter a{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 14pt;
+}
+.shelter b{
+    font-size: 20pt;
+}
+/* --------------------Фонды----------------- */
+.fund{
+    margin-bottom: 20px;
+    text-align: start;
+    max-width: 1200px;
+    height: 250px;
+    border-bottom: 1px solid black;
+}
+.fund p,.fund a{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 14pt;
+}
+.fund b{
+    font-size: 20pt;
+}
+/* ------------------полезное-------------- */
+.recomendation{
+    width: 900px;
+    text-align: start;
+}
+.recOne,.recTwo,.recThree{
+    padding-bottom: 30px;
+    margin-top: 100px;
+    border-bottom: 1px solid black;
+}
+.recomendation b{
+    font-weight: bold;
+    font-size: 21pt;
+}
+.recc p{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+
+}
+#shPetDel,#recomDel,#howDel{
+    margin-top: 30px;
+    line-height: 1.5;
+    font-size: 14pt;
+}
+@font-face {
+    font-family: fontSite;
+    src: url(font/calibri.ttf);
+}
